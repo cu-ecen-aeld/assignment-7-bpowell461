@@ -8,6 +8,7 @@ MODULE_LICENSE("Dual BSD/GPL");
 static int hello_init(void)
 {
 	printk(KERN_ALERT "Hello, world\n");
+	printk(KERN_ALERT "bpowell461\n");
 	return 0;
 }
 
